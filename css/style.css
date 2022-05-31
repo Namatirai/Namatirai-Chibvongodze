@@ -6,6 +6,7 @@ html,body{
 }
 body{
   background-color: #DDDDDD;
+  background-color: #222831;
 
 }
 #DDDDDD
@@ -15,30 +16,33 @@ body{
 #556E53
 #F05454
 
-h2{
-  color: #30475E;
+h3{
+  color: #EEEEEE;
+}
+/* h3{
+  color: #EEEEEE;
   font-family: 'Macondo', cursive;
   font-weight:300;
   line-height: 2;
-}
+} */
 
 
 p{
 
-  color: #222831;
+  color: #EEEEEE;
 font-family: 'Quicksand', sans-serif;
 line-height: 2;
 }
 
 h1{
-  color: #30475E;
+  color: #EEEEEE;
 font-weight:900;
   font-family:  'Macondo', sans-serif;
   font-size: 90px;
   margin: 200px auto 0 auto;
 }
 a{
-color: #30475E;
+color: #EEEEEE;
 text-decoration: none;
 
 }
@@ -50,7 +54,7 @@ ul{
 hr{
 width: 2%;
 border-style: dashed none none;
-border-color: #C9CCD5;
+border-color:#393E46;
 border-width: 5px;
 }
 /* profile image + menu */
@@ -87,7 +91,7 @@ border-width: 5px;
 .menuitem{
   display: inline;
    margin-left: 10px;
-  color:#30475E;
+  color:#EEEEEE;
   font-family: 'Anton', sans-serif;
   padding: 5px;
 
@@ -116,7 +120,7 @@ border-width: 5px;
   .menuitem{
     display: inline;
      margin-left: 10px;
-    color:#30475E;
+    color:#EEEEEE;
     font-family: 'Anton', sans-serif;
 
   }
@@ -208,11 +212,10 @@ border-width: 5px;
    height: 5rem;
    width: 50%;
   border: none;
-  /* border-radius: 55%; */
-  /* background-color:##556E53; */
-  color: #30475E;
+
+  color: #EEEEEE;
     font-size: 100%;
-  /* box-shadow: 55px 50px #556E53; */
+
      padding:20px ;
   overflow:hidden;
      animation: glowing2 1300ms infinite;
@@ -222,31 +225,31 @@ border-width: 5px;
 /* skills button effect */
 @keyframes glowing {
   0% {
-    background-color: #30475E;
-    box-shadow: 55px 50px #30475E;
+    background-color:  #D65A3;
+    box-shadow: 55px 50px  #D65A3;
   }
   50% {
-    background-color: #30475E;
-    box-shadow: 0 0 10px #30475E;
+    background-color:  #D65A3;
+    box-shadow: 0 0 10px  #D65A3;
   }
   100% {
-    background-color: #30475E;
-    box-shadow: 0 0 3px #30475E;
+    background-color:  #D65A3;
+    box-shadow: 0 0 3px  #D65A3;
   }
 }
 
 @keyframes glowing2 {
   0% {
 
-    box-shadow:  0 0 3px #30475E;
+    box-shadow:  0 0 3px #393E46;
   }
   50% {
 
-    box-shadow: 0 0 10px #30475E;
+    box-shadow: 0 0 10px #393E46;
   }
   100% {
 
-    box-shadow: 0 0 3px #30475E;
+    box-shadow: 0 0 3px #393E46;
   }
 }
 /**list of skills**/
