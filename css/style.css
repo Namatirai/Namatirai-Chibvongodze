@@ -1,0 +1,311 @@
+/* BODY ELEMENTS */
+html,body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body{
+  background-color: #DDDDDD;
+
+}
+#DDDDDD
+#D1D4C9
+#222831
+#30475E
+#556E53
+#F05454
+
+h2{
+  color: #30475E;
+  font-family: 'Macondo', cursive;
+  font-weight:300;
+  line-height: 2;
+}
+
+
+p{
+
+  color: #222831;
+font-family: 'Quicksand', sans-serif;
+line-height: 2;
+}
+
+h1{
+  color: #30475E;
+font-weight:900;
+  font-family:  'Macondo', sans-serif;
+  font-size: 90px;
+  margin: 200px auto 0 auto;
+}
+a{
+color: #30475E;
+text-decoration: none;
+
+}
+
+
+ul{
+  list-style-type: none;
+}
+hr{
+width: 2%;
+border-style: dashed none none;
+border-color: #C9CCD5;
+border-width: 5px;
+}
+/* profile image + menu */
+.firstline{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.profileimage{
+  position: absolute;
+  left:0;
+  top:0;
+
+}
+.menu{
+  display: inline-block;
+  position: absolute;
+  text-align: right;
+  top:0;
+  right:5px;
+  width: 30%;
+ padding: 15px;
+ margin-left: 5px;
+}
+
+.menu a:hover{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  animation: glowing2 1300ms infinite;
+  padding: 5px;
+}
+
+.menuitem{
+  display: inline;
+   margin-left: 10px;
+  color:#30475E;
+  font-family: 'Anton', sans-serif;
+  padding: 5px;
+
+}
+/* topcontainer heading */
+.topcontainer{
+  text-align: center;
+
+}
+
+.topcontainer-p{
+  margin-top: 10px;
+}
+
+/* at screens 601px and above  */
+@media screen and (min-width: 601px) {
+  .menu{
+    display: inline-block;
+    position: absolute;
+    /* text-align: right; */
+    top:0;
+    width: 50%;
+
+  }
+
+  .menuitem{
+    display: inline;
+     margin-left: 10px;
+    color:#30475E;
+    font-family: 'Anton', sans-serif;
+
+  }
+
+  .skills-container li{
+    height: 1.5rem;
+   width: 25%;
+   border: none;
+  padding: 5px;
+  border-radius: 5px;
+   color: #30475E;
+     font-size: 80%;
+     animation: glowing2 1300ms infinite;
+  }
+}
+/* @screens 600px and below */
+@media screen and (max-width: 600px) {
+
+  .topcontainer{
+    margin-top: 200px;
+    text-align: center;
+   width: 100%;
+  }
+  .topcontainer-image{
+    width: 30%;
+  }
+  .menu{
+    position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  }
+
+  .menuitem{
+    display: block;
+  /* margin-left: 10px; */
+     margin: 0;
+     padding: 0;
+     right: 0;
+
+    /* color: #FF9292; */
+    /* color: #FF6464; */
+    color:#FFAA64;
+    font-family: 'Anton', sans-serif;
+
+  }
+  .skills-container{
+    text-align: center;
+    padding:10%;
+
+  }
+  .profileimage{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 35%;
+  }
+
+  .flex-item{
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0px;
+
+  }
+  .skills-container li{
+    height: 1.5rem;
+   width: 100%;
+   border: none;
+  padding: 5px;
+  border-radius: 5px;
+   color:#30475E;
+     font-size: 80%;
+     animation: glowing2 1300ms infinite;
+  }
+
+  .map{
+    width: 50%;
+  }
+}
+/* Skills Section */
+/* Skills */
+.skills-container{
+  text-align: center;
+  padding:10%;
+
+}
+/* skills button */
+.Skills{
+   height: 5rem;
+   width: 50%;
+  border: none;
+  /* border-radius: 55%; */
+  /* background-color:##556E53; */
+  color: #30475E;
+    font-size: 100%;
+  /* box-shadow: 55px 50px #556E53; */
+     padding:20px ;
+  overflow:hidden;
+     animation: glowing2 1300ms infinite;
+
+
+}
+/* skills button effect */
+@keyframes glowing {
+  0% {
+    background-color: #30475E;
+    box-shadow: 55px 50px #30475E;
+  }
+  50% {
+    background-color: #30475E;
+    box-shadow: 0 0 10px #30475E;
+  }
+  100% {
+    background-color: #30475E;
+    box-shadow: 0 0 3px #30475E;
+  }
+}
+
+@keyframes glowing2 {
+  0% {
+
+    box-shadow:  0 0 3px #30475E;
+  }
+  50% {
+
+    box-shadow: 0 0 10px #30475E;
+  }
+  100% {
+
+    box-shadow: 0 0 3px #30475E;
+  }
+}
+/**list of skills**/
+.flex-item{
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-grow:1; */
+    /* flex-shrink:1; */
+}
+
+.flex-item a{
+    color: #ffff;
+}
+.flex-item a:hover{
+  color: #ffff;
+}
+.flex-item li:hover{
+  background-color:#30475E;
+  color: #ffff;
+}
+/* a:hover{
+  background-color:#556E53;
+  color: #ffff;
+} */
+
+/* ***********Middle Container what l have currently been doing************* */
+.middlecontainer{
+width: 50%;
+text-align: center;
+margin:auto;
+}
+.check-it{
+
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    animation: glowing2 1300ms infinite;
+
+}
+.Copyright{
+color:  #194350;
+}
+/* Contact Details */
+.contact-page{
+  text-align: center;
+  padding: 50px;
+}
+.fa-brands{
+margin: auto 15px ;
+width: 25px;
+height: 25px
+/* color: #FF6464; */
+}
+
+.fa-brands:hover{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  animation: glowing2 1300ms infinite;
+}
