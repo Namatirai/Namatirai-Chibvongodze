@@ -90,7 +90,7 @@ border-width: 5px;
 }
 
 .image-container{
-
+ width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,12 +100,18 @@ border-width: 5px;
 .flex-image{
   border-radius: 15px;
   border: 2px solid  #393E46;
-   max-width: 10%vw;
+   width: 40%vw;
     height: auto;
   padding: 10px;
-
+  -webkit-transform: rotate(20deg) skewY(20deg);
 }
-
+.card{
+  background-color: #EEEEEE;
+  width: 90%;
+   height: auto;
+ padding: 10px;
+ -webkit-transform: rotate(20deg) skewY(20deg);
+}
 .flex-image:hover{
   height: 100%vw;
   background-color: #EEEEEE;
@@ -153,7 +159,10 @@ border-width: 5px;
     width: 50%;
 
   }
-
+.card{
+  width: 400px;
+  height: 400px;
+}
   .menuitem{
     display: inline;
      margin-left: 10px;
@@ -236,18 +245,30 @@ border-width: 5px;
    font-size: 100%;
     padding:20px ;
  overflow:hidden;
-    animation: glowing3 1300ms infinite;
+    animation: glowing3 1300ms infinite;}
 
+img{
+  width: 100px;
+    height: 100px;
+}
     .flex-image{
       border-radius: 15px;
       border: 2px solid #393E46;
       margin: 15px;
-       max-width: 10%vw;
-        height: auto;
+      width: 40%;
+        height: 40%;
       padding: 10px;
       -webkit-transform: rotate(20deg) skewY(20deg);
     }
 
+    .image-container{
+     width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 15px;
+      margin:5% auto;
+    }
 
 }
 
