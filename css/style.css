@@ -11,7 +11,13 @@ body{
 
 }
 /* ************8Elements */
-
+h1{
+  color: #EEEEEE;
+font-weight:900;
+  font-family:  'Macondo', sans-serif;
+  font-size: 90px;
+  margin: 200px auto 0 auto;
+}
 h2{
   color: #EEEEEE;
   font-family: 'Macondo', cursive;
@@ -27,13 +33,7 @@ font-family: 'Quicksand', sans-serif;
 line-height: 2;
 }
 
-h1{
-  color: #EEEEEE;
-font-weight:900;
-  font-family:  'Macondo', sans-serif;
-  font-size: 90px;
-  margin: 200px auto 0 auto;
-}
+
 a{
 color: #EEEEEE;
 text-decoration: none;
