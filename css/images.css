@@ -1,21 +1,12 @@
 
-
+/* BODY ELEMENTS */
 html,body{
   margin: 0;
   padding: 0;
   text-align: center;
 background-color:  #222831;
-  /* background-color: #30475E; */
+
 }
-/* body,html,div,img{
-  margin: 0;
-    text-align: center;
-   padding: 0;
-   border: 0;
-   font-size: 100%;
-   font: inherit;
-   vertical-align: baseline;
-} */
 
 a{
 color: #EEEEEE;
@@ -23,7 +14,7 @@ text-decoration: none;
 
 }
 h2{
-  /* */
+
 color: #EEEEEE;
   font-weight: 400;
 font-family: 'Grape Nuts', cursive;
@@ -85,34 +76,7 @@ border-color: #C9CCD5;
 border-width: 5px;
 }
 
-.IONIC li:hover{
-    animation: glowing 1300ms infinite;
-}
-
-.image-container{
-
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 15px;
-  margin:5% auto;
-}
-.flex-image{
-  border-radius: 15px;
-  border: 2px solid  #393E46;
-   max-width: 10%vw;
-    height: auto;
-  padding: 10px;
-
-}
-
-.flex-image:hover{
-  height: 100%vw;
-  background-color: #EEEEEE;
- width: 100%vw;
- opacity: 0.2;
-}
-
+/*****************  menu **********************/
 .menu{
   display: inline-block;
   position: absolute;
@@ -143,7 +107,107 @@ border-width: 5px;
   font-family: 'Anton', sans-serif;
   font-weight: 200;
 }
-/* at screens 601px and above  */
+/* *************IONIC features list*************** */
+.IONIC li:hover{
+    animation: glowing 1300ms infinite;
+}
+.IONIC{
+  text-align: center;
+  padding:50px;
+
+}
+.IONIC a{
+  color: white;
+
+}
+.flex-item1{
+  margin-bottom: 50px;
+    margin-top: 10px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.flex-item1 a{
+    color: #30475E;
+}
+.flex-item1 a:hover{
+  color: #30475E;
+}
+.flex-item1 li:hover{
+  background-color:#DDDDDD;
+  color: #30475E;
+}
+/* skills button */
+.Features{
+  height: 5rem;
+  width: 50%;
+ border: none;
+
+ color: #EEEEEE;
+   font-size: 100%;
+    padding:20px ;
+ overflow:hidden;
+    animation: glowing3 1300ms infinite;
+
+    .flex-image{
+      border-radius: 15px;
+      border: 2px solid #393E46;
+      margin: 15px;
+       max-width: 10%vw;
+        height: auto;
+      padding: 10px;
+      -webkit-transform: rotate(20deg) skewY(20deg);
+    }
+
+
+}
+/* *****************Images Application************************* */
+.image-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px;
+  margin:5% auto;
+}
+.flex-image{
+  border-radius: 15px;
+  border: 2px solid  #393E46;
+   max-width: 10%vw;
+    height: auto;
+  padding: 10px;
+
+}
+
+.flex-image:hover{
+  height: 100%vw;
+  background-color: #EEEEEE;
+ width: 100%vw;
+ opacity: 0.2;
+}
+
+/* ***********************Last Section *********************/
+.contact-page{
+  text-align: center;
+  padding: 50px;
+}
+.fa-brands{
+margin: auto 15px ;
+width: 25px;
+height: 25px
+/* color: #FF6464; */
+}
+
+.fa-brands:hover{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  animation: glowing2 1300ms infinite;
+}
+
+/*********************** at screens 601px and above  ***********************/
 @media screen and (min-width: 601px) {
   .menu{
     display: inline-block;
@@ -173,7 +237,7 @@ border-width: 5px;
   }
 }
 
-/* 600 px and below */
+/***************** 600 px and below ****************************/
 @media screen and (max-width: 600px) {
 
   .menu{
@@ -217,46 +281,11 @@ border-width: 5px;
   }
 }
 
-.IONIC{
-  text-align: center;
-  padding:50px;
-
-}
-.IONIC a{
-  color: white;
-
-}
-/* skills button */
-.Features{
-  height: 5rem;
-  width: 50%;
- border: none;
-
- color: #EEEEEE;
-   font-size: 100%;
-    padding:20px ;
- overflow:hidden;
-    animation: glowing3 1300ms infinite;
-
-    .flex-image{
-      border-radius: 15px;
-      border: 2px solid #393E46;
-      margin: 15px;
-       max-width: 10%vw;
-        height: auto;
-      padding: 10px;
-      -webkit-transform: rotate(20deg) skewY(20deg);
-    }
 
 
-}
 
 
-/* .AppliedSkills:hover{
-  background-color: #FFFF;
-  color:#FF6464;
-
-} */
+/* **********************Animations */
 @keyframes glowing {
   0% {
     background-color:  #222831;
@@ -300,41 +329,4 @@ border-width: 5px;
 
     box-shadow: 0 0 3px #393E46;
   }
-}
-
-.flex-item1{
-  margin-bottom: 50px;
-    margin-top: 10px;
-  color: white;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-.flex-item1 a{
-    color: #30475E;
-}
-.flex-item1 a:hover{
-  color: #30475E;
-}
-.flex-item1 li:hover{
-  background-color:#DDDDDD;
-  color: #30475E;
-}
-.contact-page{
-  text-align: center;
-  padding: 50px;
-}
-.fa-brands{
-margin: auto 15px ;
-width: 25px;
-height: 25px
-/* color: #FF6464; */
-}
-
-.fa-brands:hover{
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  animation: glowing2 1300ms infinite;
 }
