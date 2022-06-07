@@ -150,7 +150,7 @@ border-width: 5px;
 /* ***********Middle Container what l have currently been doing************* */
 .middlecontainer{
 width: 50%;
-text-align: center;
+text-align:left;
 margin:auto;
 }
 .check-it{
