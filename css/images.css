@@ -98,14 +98,14 @@ border-width: 5px;
   display: inline;
    margin-left: 10px;
   color:#EEEEEE;
-  font-family: 'Anton', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
 
 .menuitem a{
   color:#EEEEEE;
   padding: 5px;
-  font-family: 'Anton', sans-serif;
-  font-weight: 200;
+  font-family: 'Quicksand', sans-serif;
+
 }
 /* *************IONIC features list*************** */
 .IONIC li:hover{
@@ -250,8 +250,8 @@ height: 25px
 
   .menuitem{
     display: block;
-  /* margin-left: 10px; */
-     margin: 0;
+  margin-left:0 0 10px 10px; 
+
      padding: 0;
      right: 0;
 

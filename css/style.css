@@ -10,7 +10,7 @@ body{
   background-color: #222831;
 
 }
-/* ************8Elements */
+
 h1{
   color: #EEEEEE;
 font-weight:900;
@@ -50,8 +50,7 @@ border-style: dashed none none;
 border-color:#393E46;
 border-width: 5px;
 }
-
-/* profile image + menu */
+/* ********************profileimage and firstcontainer ***************************************/
 .firstline{
   width: 100%;
   margin: 0;
@@ -63,6 +62,8 @@ border-width: 5px;
   top:0;
 
 }
+
+/******  menu ***/
 .menu{
   display: inline-block;
   position: absolute;
@@ -86,11 +87,13 @@ border-width: 5px;
   display: inline;
    margin-left: 10px;
   color:#EEEEEE;
-  font-family: 'Anton', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
   padding: 5px;
 
 }
-/* topcontainer heading */
+/* ************************************************************************************* */
+/**************************8 topcontainer heading *********************************************/
 .topcontainer{
   text-align: center;
 
@@ -100,7 +103,121 @@ border-width: 5px;
   margin-top: 10px;
 }
 
-/* at screens 601px and above  */
+/************************** Skills Section **********************/
+
+.skills-container{
+  text-align: center;
+  padding:10%;
+
+}
+/* skills button */
+.Skills{
+   height: 5rem;
+   width: 50%;
+  border: none;
+
+  color: #EEEEEE;
+    font-size: 100%;
+
+     padding:20px ;
+  overflow:hidden;
+     animation: glowing2 1300ms infinite;
+
+
+}
+
+/**list of skills**/
+.flex-item{
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-grow:1; */
+    /* flex-shrink:1; */
+}
+
+.flex-item a{
+    color: #ffff;
+}
+.flex-item a:hover{
+  color: #ffff;
+}
+.flex-item li:hover{
+  background-color:#30475E;
+  color: #ffff;
+}
+/* ************************* */
+/* ***********Middle Container what l have currently been doing************* */
+.middlecontainer{
+width: 50%;
+text-align: center;
+margin:auto;
+}
+.check-it{
+
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    animation: glowing2 1300ms infinite;
+
+}
+/* **************************** */
+
+/*****************************Last Section ************************8*/
+.contact-page{
+  text-align: center;
+  padding: 50px;
+}
+.fa-brands{
+margin: auto 15px ;
+width: 25px;
+height: 25px
+/* color: #FF6464; */
+}
+
+.fa-brands:hover{
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  animation: glowing2 1300ms infinite;
+}
+
+.Copyright{
+color:  #EEEEEE;
+}
+/* **************************88 */
+/****************************** Animation Effects effect */
+@keyframes glowing {
+  0% {
+    background-color:  #D65A3;
+    box-shadow: 55px 50px  #D65A3;
+  }
+  50% {
+    background-color:  #D65A3;
+    box-shadow: 0 0 10px  #D65A3;
+  }
+  100% {
+    background-color:  #D65A3;
+    box-shadow: 0 0 3px  #D65A3;
+  }
+}
+
+@keyframes glowing2 {
+  0% {
+
+    box-shadow:  0 0 3px #393E46;
+  }
+  50% {
+
+    box-shadow: 0 0 10px #393E46;
+  }
+  100% {
+
+    box-shadow: 0 0 3px #393E46;
+  }
+}
+
+/***********************8888 at screens 601px and above  ***********************/
 @media screen and (min-width: 601px) {
   .menu{
     display: inline-block;
@@ -115,7 +232,7 @@ border-width: 5px;
     display: inline;
      margin-left: 10px;
     color:#EEEEEE;
-    font-family: 'Anton', sans-serif;
+    font-family:  'Quicksand', sans-serif;;
 
   }
 
@@ -130,7 +247,7 @@ border-width: 5px;
      animation: glowing2 1300ms infinite;
   }
 }
-/* @screens 600px and below */
+/*********************8 @screens 600px and below ************************8888*/
 @media screen and (max-width: 600px) {
 
   .topcontainer{
@@ -150,15 +267,11 @@ border-width: 5px;
 
   .menuitem{
     display: block;
-  /* margin-left: 10px; */
-     margin: 0;
+     margin: 0 0 10px 10px;
      padding: 0;
      right: 0;
-
-    /* color: #FF9292; */
-    /* color: #FF6464; */
     color:#EEEEEE;
-    font-family: 'Anton', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 
   }
   .skills-container{
@@ -190,119 +303,5 @@ border-width: 5px;
      animation: glowing2 1300ms infinite;
   }
 
-  .map{
-    width: 50%;
-  }
-}
-/* Skills Section */
-/* Skills */
-.skills-container{
-  text-align: center;
-  padding:10%;
 
-}
-/* skills button */
-.Skills{
-   height: 5rem;
-   width: 50%;
-  border: none;
-
-  color: #EEEEEE;
-    font-size: 100%;
-
-     padding:20px ;
-  overflow:hidden;
-     animation: glowing2 1300ms infinite;
-
-
-}
-/* skills button effect */
-@keyframes glowing {
-  0% {
-    background-color:  #D65A3;
-    box-shadow: 55px 50px  #D65A3;
-  }
-  50% {
-    background-color:  #D65A3;
-    box-shadow: 0 0 10px  #D65A3;
-  }
-  100% {
-    background-color:  #D65A3;
-    box-shadow: 0 0 3px  #D65A3;
-  }
-}
-
-@keyframes glowing2 {
-  0% {
-
-    box-shadow:  0 0 3px #393E46;
-  }
-  50% {
-
-    box-shadow: 0 0 10px #393E46;
-  }
-  100% {
-
-    box-shadow: 0 0 3px #393E46;
-  }
-}
-/**list of skills**/
-.flex-item{
-  display: flex;
-  margin-top: 10px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /* flex-grow:1; */
-    /* flex-shrink:1; */
-}
-
-.flex-item a{
-    color: #ffff;
-}
-.flex-item a:hover{
-  color: #ffff;
-}
-.flex-item li:hover{
-  background-color:#30475E;
-  color: #ffff;
-}
-/* a:hover{
-  background-color:#556E53;
-  color: #ffff;
-} */
-
-/* ***********Middle Container what l have currently been doing************* */
-.middlecontainer{
-width: 50%;
-text-align: center;
-margin:auto;
-}
-.check-it{
-
-    text-align: center;
-    width: 50px;
-    height: 50px;
-    animation: glowing2 1300ms infinite;
-
-}
-.Copyright{
-color:  #EEEEEE;
-}
-/* Contact Details */
-.contact-page{
-  text-align: center;
-  padding: 50px;
-}
-.fa-brands{
-margin: auto 15px ;
-width: 25px;
-height: 25px
-/* color: #FF6464; */
-}
-
-.fa-brands:hover{
-  text-align: center;
-  width: 50px;
-  height: 50px;
-  animation: glowing2 1300ms infinite;
 }
