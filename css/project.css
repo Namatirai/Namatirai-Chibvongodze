@@ -16,7 +16,7 @@ h2{
   /* */
 color: #EEEEEE;
   font-weight: 400;
-font-family: 'Grape Nuts', cursive;
+font-family: 'Grape Nuts', serif;
   font-weight: normal;
   line-height: 2;
   margin-bottom: 20px;
@@ -24,8 +24,8 @@ font-family: 'Grape Nuts', cursive;
 }
 h3{
   color: #EEEEEE;
-    font-weight: 400;
-  font-family: 'Ubuntu', cursive;
+    
+  font-family: 'Ubuntu',sans-serif;
     font-weight: normal;
     line-height: 2;
     margin-bottom: 20px;
@@ -194,7 +194,7 @@ height: 25px
 
   .menuitem{
     display: block;
-  / margin-left: 0 0 10px 10px; 
+  / margin-left: 0 0 10px 10px;
      margin: 0;
      padding: 0;
      right: 0;
