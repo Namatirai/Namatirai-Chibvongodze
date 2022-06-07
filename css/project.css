@@ -102,13 +102,13 @@ img{
   display: inline;
    margin-left: 10px;
   color:#EEEEEE;
-  font-family: 'Anton', sans-serif;
+font-family: 'Quicksand', sans-serif;
 }
 
 .menuitem a{
   color:#EEEEEE;
   padding: 5px;
-  font-family: 'Anton', sans-serif;
+font-family: 'Quicksand', sans-serif;
   font-weight: 200;
 }
 
@@ -194,7 +194,7 @@ height: 25px
 
   .menuitem{
     display: block;
-  /* margin-left: 10px; */
+  / margin-left: 0 0 10px 10px; 
      margin: 0;
      padding: 0;
      right: 0;
