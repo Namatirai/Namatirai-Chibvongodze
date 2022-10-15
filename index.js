@@ -7,8 +7,9 @@ var features = ["To book listed accommodation available",
 
 var skillsapplied =["Angular","IONIC Framework","TypeScript"]
 
+var webfeatures = ["To search recipes a by calories,ingredients etc", "To return reults from API"]
 
-
+var webskills = ["nodejs" ,"spooncular API","EJS","mongodb"]
 //show skills
 $(document).ready(function(){
   $(".Skills").click(function(){
@@ -25,6 +26,18 @@ $(document).ready(function(){
   });
 })
 
+//showskills
+$(document).ready(function(){
+  $(".Webfeatures").click(function(){
+    for(var i = 0; i < webfeatures.length; i++){
+      var webfeaturesi = webfeatures[i];
+      console.log(webfeatures[i]);
+      $("#mywebskills").append('<li class="flex-item">' + webfeaturesi + '</li>')
+      $(".Webfeatures").hide();
+    }
+    console.log("clicked");
+  })
+})
 //show skills
 $(document).ready(function(){
   $(".Features").click(function(){
@@ -49,7 +62,7 @@ $(document).ready(function(){
     for (var i = 0; i < skillsapplied.length; i++) {
 
       var skillsused = skillsapplied[i];
-  
+
       //hide button after the skills are shown
         $(".AppliedSkills").hide();
         $(".Features").hide();

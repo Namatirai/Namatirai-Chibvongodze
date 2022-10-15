@@ -152,6 +152,30 @@ padding: 5px;
 
 
 }
+
+.Webfeatures{
+  height: 5rem;
+  width: 50%;
+ border: none;
+
+ color: #EEEEEE;
+   font-size: 100%;
+    padding:20px ;
+ overflow:hidden;
+    animation: glowing3 1300ms infinite;
+
+    .flex-image{
+      border-radius: 15px;
+      border: 2px solid #393E46;
+      margin: 15px;
+       max-width: 10%vw;
+        height: auto;
+      padding: 10px;
+      -webkit-transform: rotate(20deg) skewY(20deg);
+    }
+
+
+}
 /* *****************Images Application************************* */
 .image-container{
 
