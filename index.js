@@ -1,5 +1,5 @@
 var skills = ["HMTL" ,"CSS","JavaScript","BootStrap5", "JQUERY",
-"Angular","Ionic 5","Java" ,"Android Studio","SQL","C#","ASP.NET",]
+"EJS","React","Ionic 5","Java" ,"Android Studio","SQL","MongoDB","Firebase",]
 
 var features = ["To book listed accommodation available",
  "To save their budget information",
