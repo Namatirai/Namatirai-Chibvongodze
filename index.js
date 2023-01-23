@@ -7,7 +7,7 @@ var features = ["To book listed accommodation available",
 
 var skillsapplied =["Angular","IONIC Framework","TypeScript"]
 
-var webfeatures = ["To search recipes a by calories,ingredients etc", "To return reults from API"]
+var webfeatures = ["To search recipes a by calories,ingredients etc", "To return results from API"]
 
 var webskills = ["nodejs" ,"spooncular API","EJS","mongodb"]
 //show skills
