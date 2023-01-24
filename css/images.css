@@ -98,7 +98,7 @@ padding: 5px;
 
 /* *************IONIC features list*************** */
 .IONIC li:hover{
-    animation: glowing 1300ms infinite;
+    color: white;
 }
 .IONIC{
   text-align: center;
@@ -138,7 +138,7 @@ padding: 5px;
    font-size: 100%;
     padding:20px ;
  overflow:hidden;
-    animation: glowing3 1300ms infinite;
+animation: glowing3 1300ms infinite;
 
     .flex-image{
       border-radius: 15px;
@@ -162,7 +162,7 @@ padding: 5px;
    font-size: 100%;
     padding:20px ;
  overflow:hidden;
-    animation: glowing3 1300ms infinite;
+
 
     .flex-image{
       border-radius: 15px;
@@ -248,7 +248,7 @@ height: 25px
   border-radius: 5px;
    color:#EEEEEE;
      font-size: 80%;
-     animation: glowing2 1300ms infinite;
+
   }
 }
 
@@ -292,7 +292,7 @@ height: 25px
   border-radius: 5px;
    color:#EEEEEE;
      font-size: 80%;
-     animation: glowing3 1300ms infinite;
+
   }
 }
 
