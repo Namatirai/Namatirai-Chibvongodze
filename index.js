@@ -5,7 +5,7 @@ var features = ["To book listed accommodation available",
  "To save their budget information",
  "To review tourist places" ," To add touring experiences"]
 
-var skillsapplied =["Angular","IONIC Framework","TypeScript"]
+var skillsapplied =["Angular","IONIC Framework","TypeScript","CSS"]
 
 var webfeatures = ["To search recipes a by calories,ingredients etc", "To return results from API"]
 

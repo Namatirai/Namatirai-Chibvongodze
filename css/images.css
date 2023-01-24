@@ -86,12 +86,18 @@ border-width: 5px;
   height: 50px;
   animation: glowing3 1300ms infinite;
 }
+.menuitem a{
 
+font-family: 'Quicksand', sans-serif;
+color:#EEEEEE;
+padding: 5px;
+animation: glowing3 1300ms infinite;
+}
 .menuitem{
   display: inline;
    margin-left: 10px;
   color:#EEEEEE;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 padding: 5px;
 }
 
@@ -194,12 +200,12 @@ animation: glowing3 1300ms infinite;
 
 }
 
-.flex-image:hover{
+/* .flex-image:hover{
   height: 100%vw;
   background-color: #EEEEEE;
  width: 100%vw;
  opacity: 0.2;
-}
+} */
 
 /* ***********************Last Section *********************/
 .contact-page{
