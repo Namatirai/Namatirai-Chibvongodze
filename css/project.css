@@ -119,7 +119,7 @@ font-family: 'Quicksand', sans-serif;
   flex-wrap: wrap;
   justify-content: center;
   padding: 15px;
-  margin:5% auto;
+  margin:200px auto;
 }
     .flex-image{
       border-radius: 15px;
@@ -135,7 +135,7 @@ font-family: 'Quicksand', sans-serif;
 
 .flex-image:hover{
   height: 100%vw;
-  background-color: #EEEEEE;
+  color: #EEEEEE;
  width: 100%vw;
  opacity: 0.2;
 }
@@ -195,7 +195,7 @@ height: 25px
   .menuitem{
     display: block;
    margin: 0 0 10px 10px;
-     
+
      padding: 0;
      right: 0;
 

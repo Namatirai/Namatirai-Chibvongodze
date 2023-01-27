@@ -86,19 +86,25 @@ border-width: 5px;
   height: 50px;
   animation: glowing3 1300ms infinite;
 }
+.menuitem a{
 
+font-family: 'Quicksand', sans-serif;
+color:#EEEEEE;
+padding: 5px;
+animation: glowing3 1300ms infinite;
+}
 .menuitem{
   display: inline;
    margin-left: 10px;
   color:#EEEEEE;
-font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
 padding: 5px;
 }
 
 
 /* *************IONIC features list*************** */
 .IONIC li:hover{
-    animation: glowing 1300ms infinite;
+    color: white;
 }
 .IONIC{
   text-align: center;
@@ -138,7 +144,7 @@ padding: 5px;
    font-size: 100%;
     padding:20px ;
  overflow:hidden;
-    animation: glowing3 1300ms infinite;
+animation: glowing3 1300ms infinite;
 
     .flex-image{
       border-radius: 15px;
@@ -162,7 +168,7 @@ padding: 5px;
    font-size: 100%;
     padding:20px ;
  overflow:hidden;
-    animation: glowing3 1300ms infinite;
+
 
     .flex-image{
       border-radius: 15px;
@@ -194,12 +200,12 @@ padding: 5px;
 
 }
 
-.flex-image:hover{
+/* .flex-image:hover{
   height: 100%vw;
   background-color: #EEEEEE;
  width: 100%vw;
  opacity: 0.2;
-}
+} */
 
 /* ***********************Last Section *********************/
 .contact-page{
@@ -248,7 +254,7 @@ height: 25px
   border-radius: 5px;
    color:#EEEEEE;
      font-size: 80%;
-     animation: glowing2 1300ms infinite;
+
   }
 }
 
@@ -292,7 +298,7 @@ height: 25px
   border-radius: 5px;
    color:#EEEEEE;
      font-size: 80%;
-     animation: glowing3 1300ms infinite;
+
   }
 }
 

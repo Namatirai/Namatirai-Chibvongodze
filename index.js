@@ -5,11 +5,15 @@ var features = ["To book listed accommodation available",
  "To save their budget information",
  "To review tourist places" ," To add touring experiences"]
 
-var skillsapplied =["Angular","IONIC Framework","TypeScript"]
+var skillsapplied =["Angular","IONIC Framework","TypeScript","CSS"]
 
-var webfeatures = ["To search recipes a by calories,ingredients etc", "To return reults from API"]
+var webfeatures = ["To search recipes a by calories,ingredients etc", "To return results from API"]
 
 var webskills = ["nodejs" ,"spooncular API","EJS","mongodb"]
+
+var cakefeatures = ["Template frontend for a cake business" ]
+
+var cakeskills = ["HTML" ,"CSS","BootStrap5"]
 //show skills
 $(document).ready(function(){
   $(".Skills").click(function(){
@@ -26,6 +30,17 @@ $(document).ready(function(){
   });
 })
 
+$(document).ready(function(){
+  $(".cakefeatures").click(function(){
+    for(var i = 0; i < cakefeatures.length; i++){
+      var cakefeaturesi = cakefeatures[i];
+      console.log(webfeatures[i]);
+      $("#cakeskills").append('<li class="flex-item">' + cakefeaturesi + '</li>')
+      $(".cakefeatures").hide();
+    }
+    console.log("clicked");
+  })
+})
 //showskills
 $(document).ready(function(){
   $(".Webfeatures").click(function(){
